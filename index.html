@@ -18,7 +18,11 @@
     
     <!--header-->
     <header class="header">
+        <div class="portfolioLang">
         <a href="#" class="logo">Portfolio</a>
+        <a href="index.html" class="lang"><img src="images/EN24.jpg" alt=""></a> <!--Lang="EN"-->
+        <a href="indexFR.html" class="lang"><img src="images/FR24.jpg" alt=""></a> <!--Lang="FR"-->
+        </div>  
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -44,12 +48,12 @@
                 I'm currently exploring different technologies and programming languages such as Java, C# and C, as well as popular frameworks like Spring. <br/>
                 I have undertaken personal projects to gain practical experience. I have also taken online courses and participated in training to improve my programming skills.</p> <br/><!--Paragraphe de presentation persso-->
             <div class="social-media">
-                <a href="www.linkedin.com/in/ahmad-r-690119186"><i class='bx bxl-linkedin'></i></a> <!--Linkdin-->
+                <a href="https://www.linkedin.com/in/ahmad-r-690119186"><i class='bx bxl-linkedin'></i></a> <!--Linkdin-->
                 <a href="https://github.com/AhmadRiaz0"><i class='bx bxl-github'></i></a> <!--Git-->
-                <a href="https://discord.gg/tdJbZbFn"><i class='bx bxl-discord-alt' ></i></a> <!--Discord-->
-                <a href="ahmad0106@hotmail.fr"><i class='bx bx-envelope'></i></a> <!--Mail-->
+                <a href="https://discord.gg/xegXrDrra3"><i class='bx bxl-discord-alt' ></i></a> <!--Discord-->
+                <a href="mailto:ahmad0106@hotmail.fr"><i class='bx bx-envelope'></i></a> <!--Mail-->
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="images/CV_IT.pdf" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
@@ -105,7 +109,7 @@
                                 Database management : Merise, MySQL <br>
                                 Editor : Visual Studio, Visual Studio Code, WPF <br>
                                 Incident management : GLPI <br>
-                                Unit Testing, Functional Testing <br>
+                                Testing : Unit, Functional <br>
                             </p> 
                         </div>
                     </div>
@@ -165,8 +169,6 @@
                             </p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -205,7 +207,7 @@
                 <i class='bx bxl-unity'></i>
                 <h3>Video Game</h3>
                 <p>3D Game : Unity (Script C#)<br>
-                GameObject, Controller, AudioSrouce, 3D Modeling, Animation, IA<br>
+                GameObject, Controller, AudioSource, 3D Modeling, Animation, IA<br>
                 2D Game : GDevelop Plateformer<br>
                 Game Design, Level Design, Media Interactifs
                 </p>
@@ -214,8 +216,8 @@
             <div class="skills-box">
                 <i class='bx bx-data'></i>
                 <h3>Big Data</h3>
-                <p>Artificial Intelligence : Machine Learning, Supervisé, NonSupervisé, Renforcement<br>
-                Système Décisionnel : WearHouse, Data Marte, ETL, Reporting <br>
+                <p>Artificial Intelligence : Machine Learning, Supervised, Unsupervised, Reinforcement<br>
+                Business Intelligence: WearHouse, Data Marte, ETL, Reporting <br>
                 Blockchain : Cryptography, Hash, Nodes, Smart contract, Wallet ...
                 </p>
             </div>
@@ -272,7 +274,7 @@
                 <div class="projects-layer">
                     <h4>Game 3D</h4>
                     <p>Unity 3D Game : Racing game that consists in completing 2 laps of a circuit, as quickly as possible, with various moving obstacles on the circuit. <br>
-                    Functionality : GameObject, Controller, AudioSrouce, 3D Modeling, Animation, IA
+                    Functionality : GameObject, Controller, AudioSource, 3D Modeling, Animation, IA
                     Technology : Unity 3D, Scripts : C#
                     </p>
                     <a href="https://github.com/AhmadRiaz0/Unity_project-Race_game3D.git"><i class='bx bx-link-external'></i></a>
@@ -298,16 +300,16 @@
      <!--Contact-->
      <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="https://formspree.io/f/xvojzlbg" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Phone number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="Phone" placeholder="Phone number">
+                <input type="text" name="Subject" placeholder="Email Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send" class="btn">
         </form>
      </section>
